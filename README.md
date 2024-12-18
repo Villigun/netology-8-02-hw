@@ -13,11 +13,11 @@
 
 Результат выполнения:
 
-![alt text](https://github.com/Villigun/netology-8-02-hw/blob/main/img/img1.png)
+![alt text](https://github.com/Villigun/netology-8-02-hw/blob/main/img/img01.png)
 
-![alt text](https://github.com/Villigun/netology-8-02-hw/blob/main/img/img2.png)
+![alt text](https://github.com/Villigun/netology-8-02-hw/blob/main/img/img02.png)
 
-![alt text](https://github.com/Villigun/netology-8-02-hw/blob/main/img/img3.png)
+![alt text](https://github.com/Villigun/netology-8-02-hw/blob/main/img/img03.png)
 ---
 
 ### Задание 2
