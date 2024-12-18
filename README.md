@@ -19,6 +19,8 @@
 
 ![alt text](https://github.com/Villigun/netology-8-02-hw/blob/master/img/img03.png)
 
+![alt text](https://github.com/Villigun/netology-8-02-hw/blob/master/img/img04.png)
+
 ---
 
 ### Задание 2
