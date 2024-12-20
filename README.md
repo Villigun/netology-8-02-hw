@@ -30,7 +30,7 @@
 3. `Пытаемся собрать проект, и на 20 билд исправлений находим неочевидную ошибку в скрипте -`
    `на этапе Test криво задан путь к местоположению go. Указываем прямой путь и - победа`
 
-[Ссылка на скрипт:](https://github.com/Villigun/netology-8-02-hw/blob/master/pipeline.scr)
+[Ссылка на скрипт](https://github.com/Villigun/netology-8-02-hw/blob/master/pipeline.scr)
 
 Результат выполнения:
 
