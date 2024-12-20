@@ -13,38 +13,30 @@
 
 Результат выполнения:
 
-![alt text](https://github.com/Villigun/netology-8-02-hw/blob/master/img/img01.png)
+![alt text](https://github.com/Villigun/netology-8-02-hw/blob/master/img/img2-01.png)
 
-![alt text](https://github.com/Villigun/netology-8-02-hw/blob/master/img/img02.png)
+![alt text](https://github.com/Villigun/netology-8-02-hw/blob/master/img/img2-02.png)
 
-![alt text](https://github.com/Villigun/netology-8-02-hw/blob/master/img/img03.png)
+![alt text](https://github.com/Villigun/netology-8-02-hw/blob/master/img/img2-03.png)
 
-![alt text](https://github.com/Villigun/netology-8-02-hw/blob/master/img/img04.png)
+![alt text](https://github.com/Villigun/netology-8-02-hw/blob/master/img/img2-04.png)
 
 ---
 
 ### Задание 2
 
-`Приведите ответ в свободной форме........`
+1. `Создаем новый проект в Jenkins`
+2. `Настраиваем pipeline, путем вписывания скрипта в поле Defination`
+3. `Пытаемся собрать проект, и на 20 билд исправлений находим неочевидную ошибку в скрипте -`
+   `на этапе Test криво задан путь к местоположению go. Указываем прямой путь и - победа`
 
-1. `Заполните здесь этапы выполнения, если требуется ....`
-2. `Заполните здесь этапы выполнения, если требуется ....`
-3. `Заполните здесь этапы выполнения, если требуется ....`
-4. `Заполните здесь этапы выполнения, если требуется ....`
-5. `Заполните здесь этапы выполнения, если требуется ....`
-6. 
+[Ссылка на скрипт:](https://github.com/Villigun/netology-8-02-hw/blob/master/pipeline.scr)
 
-```
-Поле для вставки кода...
-....
-....
-....
-....
-```
+Результат выполнения:
 
-`При необходимости прикрепитe сюда скриншоты
-![Название скриншота 2](ссылка на скриншот 2)`
+![alt text](https://github.com/Villigun/netology-8-02-hw/blob/master/img/img3-01.png)
 
+![alt text](https://github.com/Villigun/netology-8-02-hw/blob/master/img/img3-02.png)
 
 ---
 
