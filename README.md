@@ -13,13 +13,13 @@
 
 Результат выполнения:
 
-![alt text](https://github.com/Villigun/netology-8-02-hw/blob/master/img/img2-01.png)
+![alt text](https://github.com/Villigun/netology-8-02-hw/blob/master/img/img1-01.png)
 
-![alt text](https://github.com/Villigun/netology-8-02-hw/blob/master/img/img2-02.png)
+![alt text](https://github.com/Villigun/netology-8-02-hw/blob/master/img/img1-02.png)
 
-![alt text](https://github.com/Villigun/netology-8-02-hw/blob/master/img/img2-03.png)
+![alt text](https://github.com/Villigun/netology-8-02-hw/blob/master/img/img1-03.png)
 
-![alt text](https://github.com/Villigun/netology-8-02-hw/blob/master/img/img2-04.png)
+![alt text](https://github.com/Villigun/netology-8-02-hw/blob/master/img/img1-04.png)
 
 ---
 
@@ -34,9 +34,9 @@
 
 Результат выполнения:
 
-![alt text](https://github.com/Villigun/netology-8-02-hw/blob/master/img/img3-01.png)
+![alt text](https://github.com/Villigun/netology-8-02-hw/blob/master/img/img2-01.png)
 
-![alt text](https://github.com/Villigun/netology-8-02-hw/blob/master/img/img3-02.png)
+![alt text](https://github.com/Villigun/netology-8-02-hw/blob/master/img/img2-02.png)
 
 ---
 
