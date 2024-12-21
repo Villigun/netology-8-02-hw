@@ -6,7 +6,7 @@ pipeline {
   }
   stage('Test') {
    steps {
-    // Ошибка в ледующей строке. Было sh 'go test .'
+    // Ошибка в следующей строке. Было sh 'go test .'
     sh '/usr/local/go/bin/go test .'
    }
   }

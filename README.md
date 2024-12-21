@@ -60,7 +60,7 @@
 ### Задание 4
 
 1. `Создаем новый репозиторий в Nexus, новый pipeline в Jenkins`
-2. `Берем за основу скрипт из задания 2, вносим изменения в секции environment и stage('Upload to Nexus')`
+2. `Берем за основу скрипт из задания 3, вносим изменения в секции environment и stage('Upload to Nexus')`
 
 [Ссылка на измененный скрипт](https://github.com/Villigun/netology-8-02-hw/blob/master/pipeline3.scr)
 
