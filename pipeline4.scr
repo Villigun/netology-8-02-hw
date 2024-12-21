@@ -1,0 +1,56 @@
+pipeline {
+    agent any
+
+    environment {
+     NEXUS_URL = 'http://172.16.10.126:8081/repository/go-bin2/'
+     NEXUS_REPO = 'go-bin2'
+     ARTIFACT_NAME = 'test'
+     // !!! АЛЯРМ !!! Удали кредишиналы перед коммитом
+     NEXUS_USERNAME = '######'
+     NEXUS_PASSWORD = '######'
+     GO_PATH = '/usr/local/go/bin'
+     PATH = "$GO_PATH:$PATH"
+     TEMPDIR_PATH = '/tmp/app'
+     VERSION = "${ARTIFACT_NAME}-${BUILD_NUMBER}"
+    }
+
+    stages {
+     stage('Clone Repository') {
+      steps {
+       git 'https://github.com/netology-code/sdvps-materials.git'
+      }
+     }
+     stage('Build Go Binary') {
+      steps {
+       script {
+        sh 'go version'
+        sh 'mkdir -p /tmp/app && chmod 777 ${TEMPDIR_PATH}'
+        sh 'CGO_ENABLED=0 GOOS=linux go build -a -installsuffix nocgo -o ${TEMPDIR_PATH} .'
+       }
+      }
+     }
+     stage('Upload to Nexus') {
+      steps {
+       script {
+        def artifact = '/app'
+        def ArtifactNameWithBildNumber = "${VERSION}.tar.gz"
+        def nexusUrl = "${NEXUS_URL}${ArtifactNameWithBildNumber}-linux-amd64.tar.gz"
+        sh "tar -czf ${ArtifactNameWithBildNumber}-linux-amd64.tar.gz -C ${TEMPDIR_PATH} ."
+        sh """
+         curl -u '${NEXUS_USERNAME}:${NEXUS_PASSWORD}' \
+         --upload-file ${ArtifactNameWithBildNumber}-linux-amd64.tar.gz \
+         ${nexusUrl}
+        """
+       }
+      }
+     }
+    }
+    post {
+     success {
+      echo 'Go binary uploaded to Nexus successfully!'
+     }
+     failure {
+      echo 'Build failed.'
+     }
+    }
+}
